@@ -11,7 +11,7 @@
         goto L_Tut_Done;
     // Please consider rewriting this in terms of isin()
     // it's not that trivial to put this in a rectangle...
-    if ( (@y < 64)&&(@x < 110) || (@x < 107) )
+    if ( (@y < 58)&&(@x < 89) || (@x < 87) )
         goto L_Cliff_Up;
     // implicitly, $@ScorpionFighter is nonzero
     if (getcharid(3) == $@ScorpionFighter)
